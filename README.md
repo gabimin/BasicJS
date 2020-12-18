@@ -1,1 +1,1 @@
-# BasicJS
+# Basic JS Course
