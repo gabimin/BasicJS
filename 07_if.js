@@ -38,6 +38,7 @@ if (true) {
     xx
 }
 
+// pueden hacerse más de un else if, tantos como se necesiten
 
 // Ejemplo:
 
@@ -45,9 +46,29 @@ var edad = 18;
 
 if (edad === 18) {
     console.log("Puedes votar, será tu primera votación")
-
 } else if (edad > 18) {
     console.log("Puedes votar nuevamente")
 } else {
     console.log("Aún no puedes votar")
 }
+
+
+/*
+
+OPERADOR TERNARIO: permite generar if y else en una sola línea
+
+
+
+condition ? true : false
+
+*/
+
+// Ejemplo:
+
+var numero = 1;
+
+var resultado = numero === 1 ? "Sí soy un uno" : "No, no soy uno";
+
+console.log(resultado);
+
+// imprime Sí soy un uno porque se está cumpliendo la condición que está antes de ?
